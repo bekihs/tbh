@@ -1,0 +1,48 @@
+.question {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: min(48px, 171%);
+    /* or 171% */
+
+    text-align: center;
+
+    color: var(--blue);
+    margin-bottom: 40px;
+}
+
+.question textarea {
+    background: #ffffff;
+    border: 1px solid #f8f0e0;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: min(32px, 178%);
+    padding: 16px 24px;
+    width: 100%;
+    height: min(256px, 20vh);
+}
+
+.question textarea:-ms-input-placeholder,
+.question textarea::-ms-input-placeholder {
+    color: #b8b9cc;
+}
+.buttons{
+    width:100%;
+    text-align: center;
+}
+.submit-button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    background: #6aac89;
+    color: #ffffff;
+    padding:13px 36px;
+    margin:auto;
+}
+.submit-button.ready {
+    cursor: pointer;
+}
+.submit-button.disables {
+    opacity: 0.25;
+}
